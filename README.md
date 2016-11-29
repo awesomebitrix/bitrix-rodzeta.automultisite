@@ -9,5 +9,6 @@
 
     http://villa-mia.ru/ -> будет выбран шаблон villa-mia.ru
 
-    http://renessans.villa-mia.ru/ -> будет выбран шаблон renessans.villa-mia.ru
-    
+    http://renessans-park.villa-mia.ru/ -> будет выбран шаблон renessans-park.villa-mia.ru
+
+   
