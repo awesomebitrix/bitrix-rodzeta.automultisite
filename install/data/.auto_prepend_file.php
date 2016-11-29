@@ -5,10 +5,10 @@
 
 if (parse_url($_SERVER["REQUEST_URI"], PHP_URL_PATH) == "/") {
 
-	$tmpSectionCode = basename(rtrim(str_replace("villa-mia.ru", "", $_SERVER["SERVER_NAME"]), "."));
+	$tmpSectionCode = rtrim(str_replace("villa-mia.ru", "", $_SERVER["SERVER_NAME"]), ".");
 	if ($tmpSectionCode) {
 		// dest url
-		//		renessans-park.villa-mia.ru/ -> villa-mia.ru/poselki/renessans-park/
+		//	renessans-park.villa-mia.ru/ -> villa-mia.ru/poselki/renessans-park/
 		$_SERVER["REDIRECT_URL"] = $_SERVER["REQUEST_URI"] = "/poselki/" . $tmpSectionCode . "/";
 
 		// bitrix entry point
