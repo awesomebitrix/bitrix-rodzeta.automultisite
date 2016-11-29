@@ -3,6 +3,11 @@
 // example rewrite by php
 // 	rewrite subdomain url to section url
 
+// NOTE add to .htaccess
+//	php_value auto_prepend_file /your-site-public_html/bitrix/modules/rodzeta.automultisite/install/data/.auto_prepend_file.php
+// or add to php.ini
+//	auto_prepend_file = "/your-site-public_html/bitrix/modules/rodzeta.automultisite/install/data/.auto_prepend_file.php"
+
 if (parse_url($_SERVER["REQUEST_URI"], PHP_URL_PATH) == "/") {
 
 	$tmpSectionCode = rtrim(str_replace("villa-mia.ru", "", $_SERVER["SERVER_NAME"]), ".");
