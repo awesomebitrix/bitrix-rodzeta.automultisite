@@ -1,4 +1,9 @@
 <?php
+/*******************************************************************************
+ * rodzeta.automultisite - Auto multisiting module
+ * Copyright 2016 Semenov Roman
+ * MIT License
+ ******************************************************************************/
 
 use Bitrix\Main\{EventManager, Event, EventResult};
 
