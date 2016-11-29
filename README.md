@@ -7,8 +7,8 @@
 
 ## Пример
 
+    http://example.org/ -> будет выбран шаблон example.org
+
     http://villa-mia.ru/ -> будет выбран шаблон villa-mia.ru
 
     http://renessans-park.villa-mia.ru/ -> будет выбран шаблон renessans-park.villa-mia.ru
-
-
